@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/Dzmitryny/rsschool-cv/blob/gh-pages/cv.md
+https://Dzmitryny.github.io/rsschool-cv/
