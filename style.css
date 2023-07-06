@@ -1,5 +1,21 @@
- {
-  @font-face {
+@font-face {
     font-family:Bacasime Antique;
     src: url(assets/fonts/Unbounded-VariableFont_wght.ttf);
   }
+@font-face {
+  font-family:Lora-VariableFont;
+  src: url(assets/fonts/Lora-VariableFont_wght.ttf);
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
