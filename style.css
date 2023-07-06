@@ -1,3 +1,5 @@
  {
-  ::-webkit-validation-bubble-text-block: target-text;
-}
+  @font-face {
+    font-family:Bacasime Antique;
+    src: url(assets/fonts/Unbounded-VariableFont_wght.ttf);
+  }
