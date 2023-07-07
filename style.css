@@ -37,7 +37,7 @@ html {
   transition: 0.3s;
 }
 .section-item a {
-  color: #829985;
+  color: #000000;
   text-decoration: none;  
   transition: color 0.5s;
 }
@@ -61,22 +61,118 @@ html {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #000000;
 }
 .link {
   text-decoration: none;
-  color: #829985;
+  color: #000000;
   transition: color 0.5s;
 }
 
 .link:hover {
-  color: #5d7260;
+  color: #000000;
 }
- .small-image {
-        width: 450px;
-        height: 600px;
+
+    body {
+  background-image: url("assets/img/1636931350_1-bogatyr-club-p-fon-gradient-svetlii-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #000000;
     }
- .small-image {
-  background-image: url(assets/img/p4YdMPsYF2o.jpg);
-        background-position: 900px;
- }   
+    .section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+.section-subtitle {
+    margin-top: 20px;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #080000;
+    }
+.footer {
+    background-color: #7deaa1;
+    padding: 40px;
+    width: 700%;
+    height: 17px;
+}
+footer {
+    display: block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+.github {
+    color: #060606;
+    text-decoration: none;
+    line-height: 45px;
+}
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #1b1919;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+     }
