@@ -1,0 +1,212 @@
+@font-face {
+    font-family:'Bacasime Antique';
+    src: url(assets/fonts/Unbounded-VariableFont_wght.ttf);
+  }
+@font-face {
+  font-family:Lora-VariableFont;
+  src: url(assets/fonts/Lora-VariableFont_wght.ttf);
+}
+*{
+ box-sizing: border-box;
+  }
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none; 
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+.nav-item {
+  margin: 0 10px;
+}
+nav {
+  display: block;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  line-height: 50px;
+  color: aqua;
+}
+.section-item  {
+  color: #000000;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 30px;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #672f2f;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #030303;
+}
+.link {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+body {
+  background-image: url("assets/img/1636931350_1-bogatyr-club-p-fon-gradient-svetlii-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #baaaaa;
+  }
+.section-profile-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  filter: grayscale(0.2) brightness(1.05);
+  transition: .3s;
+}
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #930404;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+.section-subtitle {
+    margin-top: 20px;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: #080000;
+    }
+.footer {
+    background-color: #baaaaa;
+    padding: 20px;
+}
+footer {
+    display: block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+.github {
+    color: #060606;
+    text-decoration: none;
+    line-height: 45px;
+}
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #1b1919;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+     }
+   .header {
+    background-color: #baaaaa;
+   }
+header{
+  display: block;
+}   
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+div {
+display: block;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.pre {
+  padding: 0;
+  margin: 0;
+  }
+  
