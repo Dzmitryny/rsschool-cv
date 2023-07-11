@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/Без названия.ico">
     <meta charset="UTF-8">
     <meta name="description" content="cv Dmitry Ivantsov">
     <meta name="keywords" content="Ivantsov cv">
@@ -8,10 +10,81 @@
     <title>My cv</title>
   </head>
   <body>
-    <p><i>Loading</i>....</p>
-    <ul>
-      <li>contacts</li>
-      <li>menu</li>
-    </ul>
+   <header class="header">
+    <div class="container header-container">
+    <nav class="nav">
+      <ul class="nav-list">
+    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+  </ul>
+ </nav>
+</header>
+   <main class="main"> 
+    <div class="container main-container">
+    <section class="section-profile" id="profile">
+    <img src="assets/img/p4YdMPsYF2o.jpg" alt class="section-profile-logo">
+    <div class="section-title main-title">
+      <h1 class="section-title main-title">Dmitry Ivantsov</h1>
+      <h3 class="section-subtitle">Junior Front-end developer</h3>
+    </div>
+    </section>
+      <section class="section" id="contacts"><h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">Minsk, Belarus</li>
+          <li class="section-item contacts-item">Email:
+            <a href="https://e.mail.ru/inbox/?back=1" title="email">dimaivancov777@mail.ru</a>
+          </li>
+          <li class="section-item contacts-item">
+            Telegram:
+            <a href="https://web.telegram.org/a/#591754297" title="Telegram">@Dmitrynylite</a>
+          </li>
+          <li class="section-item contacts-item">Github:
+            <a href="https://github.com/Dzmitryny/rsschool-cv" title="github">Dzmytryny</a>
+          </li>
+          <li class="section-item contacts-item">Discord:
+            <a href="dzmitryny" title="discord">dzmitryny</a>\
+          </li>
+        </ul>
+      </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>I'm a beginner developer, I work out 30 hours a week, I'm very motivated and ready to do anything to become a successful Fronted developer.
+I have already succeeded in such branches as HTML and CSS, I will continue to study such directions and their structures as: JavaScript, React, Figma, Angular and the list will be further supplemented like this summary.</p>
+        </section>
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+              <li class="section-item">Web-development:
+                <span>HTML5, CSS3</span>
+              </li>
+              <li class="section-item">
+                Version control:
+                <span>GIT, Github</span>
+              </li>
+            </ul>
+          </section>
+            <section class="section" id="code">
+              <h2 class="section-title">Code</h2>
+              <pre class="pre">
+                <code>"function add(a, b) { return a + b;}"</code>
+              </pre>
+            </section>
+              <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2</p>
+              </section>     
+   </main>
+<footer class="footer">
+    <div class="container footer-container">
+      "2023"
+      <a href="https://github.com/Dzmitryny/rsschool-cv" class="github nav-link">
+        "Dzmytryny"
+      </a>
+    </div>
+      <a href="https://rs.school/js/" class="rss"></a>
+  </footer>
   </body>
 </html>
